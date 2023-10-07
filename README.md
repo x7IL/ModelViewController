@@ -68,73 +68,76 @@ MVC-Simple-Example/
 - Contains your application's environment variables and configurations. This might include details like database connection info, API keys, and other environment-specific configurations.
 
 
-Installation Guide
-Composer
+# Installation Guide
 
-Composer is a dependency manager for PHP. Here's how to install it on various operating systems:
-macOS
+## Composer
 
-    Open Terminal.
-    Run the following command to download and install Composer:
+_Composer is a dependency manager for PHP. Here's how to install it on various operating systems:_
+### macOS
 
-    bash
+Open Terminal.
+Run the following command to download and install Composer:
 
-    curl -sS https://getcomposer.org/installer | php
-    mv composer.phar /usr/local/bin/composer
+```
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
+```
 
-Linux
+### Linux
 
-    Open Terminal.
-    Run the following commands to download and install Composer:
+Open Terminal.
+Run the following commands to download and install Composer:
 
-    bash
+```
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+```
 
-    curl -sS https://getcomposer.org/installer | php
-    sudo mv composer.phar /usr/local/bin/composer
+### Windows
 
-Windows
+Download the installer from [getcomposer.org](https://getcomposer.org/download/).
+Run the .exe file you downloaded.
+Follow the on-screen instructions.
 
-    Download the installer from getcomposer.org
-    Run the .exe file you downloaded.
-    Follow the on-screen instructions.
+# npm (Node Package Manager)
 
-npm (Node Package Manager)
+_npm is the package manager for Node.js. To install it, you first need to install Node.js:_
 
-npm is the package manager for Node.js. To install it, you first need to install Node.js:
-macOS
+### macOS
 
-    Open Terminal.
-    Use Homebrew to install Node.js:
+Open Terminal.
+Use Homebrew to install Node.js:
 
-    bash
+```
+brew install node
+```
 
-    brew install node
+## Linux
 
-Linux
+Open Terminal.
+Use your package manager to install Node.js. For Debian/Ubuntu:
 
-    Open Terminal.
-    Use your package manager to install Node.js. For Debian/Ubuntu:
+```
+sudo apt update
+sudo apt install nodejs
+sudo apt install npm
+```
 
-    bash
+## Windows
 
-    sudo apt update
-    sudo apt install nodejs
-    sudo apt install npm
+Go to the official [Node.js website](https://nodejs.org/).
+Download the installer for Windows.
 
-Windows
+Run the .msi file you downloaded.
+Follow the on-screen instructions. npm will also be installed with Node.js.
 
-    Go to the official Node.js website
-    Download the installer for Windows.
-    Run the .msi file you downloaded.
-    Follow the on-screen instructions. npm will also be installed with Node.js.
-
+--- 
 After installing Composer and npm, you can verify their installations with the following commands in your terminal or command prompt:
 
-bash
-
+```
 composer --version
 npm --version
-
+```
 This should display the installed versions of Composer and npm.
 
 That's it! You're now ready to use Composer and npm on your system.
